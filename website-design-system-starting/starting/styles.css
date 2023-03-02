@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#main-title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+
+.colors {
+    padding: 30px 20px;
+    padding-right: -10px;
+    border: solid 2px lightgrey;
+    border-radius: 24px;
+}
+
+
+.color-square {
+    width: 262px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+.color1 {
+    background-color: #E8D7F1;
+}
+
+.color2 {
+    background-color: #D3BCCC;
+}
+
+.color3 {
+    background-color: #A167A5;
+    
+}
+
+.color4 {
+    background-color: #4A306D;
+    color: white;
+}
+
+.color5 {
+    background-color: #0E273C;
+    color: white;
+}
+
+.color-square > p {
+    text-align: center;
+    position: relative;
+    top: 25px;
+
+}
+
+.hex-color {
+    font-weight: bold;
+}
+
+.colors, .font, .text-style {
+    margin-top: 30px;
+}
+
+/* Fonts */
+
+.font {
+    padding: 30px 20px;
+    padding-right: -10px;
+    border: solid 2px lightgrey;
+    border-radius: 24px;
+}
+
+.font p {
+    line-height: 2em;
+}
+
+.merriweather, .montserrat, .noto {
+    margin-bottom: 15px;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+h2, .montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.noto {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+/* Text Styles */
+
+.text-style {
+    padding: 30px 20px;
+    padding-right: -10px;
+    border: solid 2px lightgrey;
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    margin-bottom: -15px;
+}
+
+.text-styling ul {
+    padding: 20px;
+}
+
+.text-styling h1 {
+    font-size: 35px;
+}
+
+.text-styling h2 {
+    font-size: 25px;
+}
+
+
+
